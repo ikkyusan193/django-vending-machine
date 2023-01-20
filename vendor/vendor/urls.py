@@ -25,7 +25,7 @@ router.register(r'product', ProductViewSet)
 router.register(r'stock', StockViewSet)
 router.register(r'vending-machine', MachineViewSet)
 
-router.register(r'^product/$', ProductViewSet)
+router.register(r'product/$', ProductViewSet)
 router.register(r'stock/$', MachineViewSet)
 router.register(r'vending-machine/$', MachineViewSet)
 
