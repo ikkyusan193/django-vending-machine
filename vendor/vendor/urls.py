@@ -22,12 +22,12 @@ from app.views import ProductViewSet, OrderViewSet, StockViewSet, MachineViewSet
 
 router = routers.DefaultRouter()
 router.register(r'product', ProductViewSet)
-router.register(r'order', OrderViewSet)
 router.register(r'stock', StockViewSet)
 router.register(r'vending-machine', MachineViewSet)
 
 router.register(r'^product/$', ProductViewSet)
 router.register(r'stock/$', MachineViewSet)
+router.register(r'vending-machine/$', MachineViewSet)
 
 urlpatterns = [
     path('', include(router.urls)),
