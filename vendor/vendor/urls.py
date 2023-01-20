@@ -18,7 +18,7 @@ from django.urls import path, include
 
 from rest_framework import routers
 
-from app.views import ProductViewSet, OrderViewSet, StockViewSet, MachineViewSet
+from app.views import ProductViewSet, StockViewSet, MachineViewSet
 
 router = routers.DefaultRouter()
 router.register(r'product', ProductViewSet)
