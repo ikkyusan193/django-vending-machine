@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-from app.models import Product, Order, Stock, Machine
+from app.models import Product, Stock, Machine
 
 MAX_DEPTH = 5
 
